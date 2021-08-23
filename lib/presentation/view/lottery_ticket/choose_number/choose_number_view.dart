@@ -2,14 +2,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:lottery_test_app/presentation/widgets/custom_widgets/appbar_custom.dart';
-import 'package:lottery_test_app/presentation/widgets/custom_widgets/background_stack.dart';
-import 'package:lottery_test_app/presentation/widgets/custom_widgets/number_preview.dart';
-import 'package:lottery_test_app/presentation/widgets/custom_widgets/number_select_chip.dart';
 import 'package:stacked/stacked.dart';
 
 import 'choose_number_viewmodel.dart';
 import '../../../../utilities/statusbar_util.dart';
+import '../../../../presentation/widgets/custom_widgets/appbar_custom.dart';
+import '../../../../presentation/widgets/custom_widgets/background_stack.dart';
+import '../../../../presentation/widgets/custom_widgets/number_preview.dart';
+import '../../../../presentation/widgets/custom_widgets/number_select_chip.dart';
 
 class ChooseNumberView extends StatelessWidget {
   @override

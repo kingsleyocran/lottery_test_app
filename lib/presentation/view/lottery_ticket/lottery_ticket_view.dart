@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lottery_test_app/presentation/widgets/custom_widgets/background_stack.dart';
-import 'package:lottery_test_app/presentation/widgets/custom_widgets/lottery_tile.dart';
 import 'package:stacked/stacked.dart';
 
 import 'lottery_ticket_viewmodel.dart';
 import '../../../utilities/statusbar_util.dart';
+import '../../../../presentation/widgets/custom_widgets/background_stack.dart';
+import '../../../../presentation/widgets/custom_widgets/lottery_tile.dart';
 
 class LotteryTicketView extends StatelessWidget {
   @override

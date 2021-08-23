@@ -9,6 +9,7 @@ import '../../services/third_party_services/toast_service.dart';
 import '../../app/locator.dart';
 import '../../presentation/widgets/setup_dialog_ui.dart';
 import '../../presentation/widgets/setup_snackbar_ui.dart';
+
 abstract class ViewModel extends BaseViewModel {
 
   final ThemeService _themeService = locator<ThemeService>();
